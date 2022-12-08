@@ -1,0 +1,75 @@
+\documentclass[letter,10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{CJKutf8}
+\usepackage{tabularx}
+\usepackage{array}
+
+%====================
+% File:         resume.tex
+% Modifying author2:       https://github.com/mengisok 
+% Last Updated: Oct 29, 2022
+% Notes:        I edited again on the version of @gobborg      
+%====================
+
+%====================
+% File:         resume.tex
+% Modifying author1:       https://github.com/gobborg 
+% Last Updated: Dec 26, 2021
+% Notes:        I just made it prettier and better suited to
+%               my needs.
+%====================
+
+%====================
+% File:         resume.tex
+% Original author:       https://github.com/TimmyChan 
+% Modified by    :       https://github.com/md.abir1203 
+% Last Updated: Dec 8, 2022
+% Notes:        All formatting is done in TLCresume.sty
+%               No need to touch that file. 
+%               All actual content is in the sections/ folder.
+%               Added pifont to change bullet points symbol
+%====================
+
+\usepackage{TLCresume}
+
+%====================
+% CONTACT INFORMATION
+%====================
+\author{Mohammad Abir Abbas} 
+\def\phone{+491637163159}
+\def\city{Hannover}
+\def\email{mabbas@students.42wolfsburg.de}
+% blog edited in _header.tex
+\def\github{mdabir1203} % github username
+\def\LinkedIn{abir-abbas} % linkedin.com/in/______
+
+\begin{document}
+\import{sections/}{_header}
+\vspace*{10pt}
+
+
+\section{Freelance and Pet Projects}
+\import{sections/}{experience}
+\vspace*{10pt}
+
+\section{Achievements and Organizations}
+\import{sections/}{project}
+\vspace*{10pt}
+
+\section{Education}
+\import{sections/}{education}
+\vspace*{10pt}
+
+\section{Skills}
+\vspace*{3pt}
+\import{sections/}{skills}
+\vspace*{10pt}
+
+\section{Hobbies}
+\vspace*{3pt}
+\import{sections/}{Hobbies}
+\vspace*{10pt}
+
+
+
+\end{document}
