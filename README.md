@@ -19,7 +19,7 @@ Compatible with LaTeX
 ##Getting Started
 
 
-<div style="overflow: auto;">
+<div>
   <ul>
     <li> Clone or download the repository to your local machine.</li>
     <li> Open the resume.tex file in your LaTeX compiler.</li>
