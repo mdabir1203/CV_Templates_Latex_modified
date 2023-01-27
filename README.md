@@ -26,7 +26,7 @@ Compatible with LaTeX
     <li> Customize the template by editing the text and replacing the placeholder information with your own.</li>
     <li> Compile the cv.tex file to generate the final PDF document.</li>
   </ul>
-</div>
+
 
 <style>
   ul {
@@ -40,3 +40,4 @@ Compatible with LaTeX
     margin-right: 10px;
   }
 </style>
+</div>
