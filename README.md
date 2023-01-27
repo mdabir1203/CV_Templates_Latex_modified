@@ -20,56 +20,23 @@ Compatible with LaTeX
 
 
 <div style="overflow: auto;">
-  <ul style="list-style-type: none;">
-    <li>
-      <div class="bullet-container">
-        <div class="bullet"></div>
-        <div class="Clone or download the repository to your local machine">
-          List item 1
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="bullet-container">
-        <div class="bullet"></div>
-        <div class="Open the resume.tex file in your LaTeX compiler.">
-          List item 2
-        </div>
-      </div>
-    </li>
-    <li>
-      <div class="bullet-container">
-        <div class="bullet"></div>
-        <div class="Customize the template by editing the text and replacing the placeholder information with your own.">
-          List item 3
-        </div>
-      </div>
-    </li>
-     <li>
-      <div class="bullet-container">
-        <div class="bullet"></div>
-        <div class="Compile the cv.tex file to generate the final PDF document.">
-          List item 3
-        </div>
-      </div>
-    </li>
+  <ul>
+    <li> Clone or download the repository to your local machine.</li>
+    <li> Open the resume.tex file in your LaTeX compiler.</li>
+    <li> Customize the template by editing the text and replacing the placeholder information with your own.</li>
+    <li> Compile the cv.tex file to generate the final PDF document.</li>
   </ul>
 </div>
 
 <style>
-  .bullet-container {
-    display: flex;
-    align-items: center;
+  ul {
+    list-style-type: none;
+    padding-left: 20px;
   }
-  .bullet {
-    width: 20px;
-    height: 20px;
-    background-color: #0088cc;
-    border-radius: 50%;
+  ul li::before {
+    content: '•';
+    color: #0088cc;
+    font-size: 20px;
     margin-right: 10px;
   }
 </style>
-
-
---> Replace the placeholder information with your own.
---> Update the font and color scheme to match your personal brand.
