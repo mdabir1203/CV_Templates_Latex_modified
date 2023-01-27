@@ -1,7 +1,3 @@
-I edited resume template for my use.   
-Suitable for inexperienced students seeking engineer jobs (sparse typesetting!).
-
-
 ## Modified LaTeX CV Template (Original source :  [gobborg's](https://github.com/gobborg))
 
 This repository includes a customized LaTeX CV template that is intended to make it simpler to produce a CV that looks professional.
