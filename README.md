@@ -27,7 +27,7 @@ Compatible with LaTeX
     <li> Compile the cv.tex file to generate the final PDF document.</li>
   </ul>
 
-
+</div>
 <style>
   ul {
     list-style-type: none;
@@ -40,4 +40,4 @@ Compatible with LaTeX
     margin-right: 10px;
   }
 </style>
-</div>
+
